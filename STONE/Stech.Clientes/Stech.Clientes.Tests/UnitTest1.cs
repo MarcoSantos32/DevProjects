@@ -9,6 +9,7 @@ namespace Stech.Clientes.Tests
         public void Test1()
         {
             //ALteração do teste 1
+            //Branch Develop
         }
     }
 }
