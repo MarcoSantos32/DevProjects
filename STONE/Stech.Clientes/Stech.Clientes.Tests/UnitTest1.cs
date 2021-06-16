@@ -8,7 +8,7 @@ namespace Stech.Clientes.Tests
         [Fact]
         public void Test1()
         {
-
+            //ALteração do teste 1
         }
     }
 }
