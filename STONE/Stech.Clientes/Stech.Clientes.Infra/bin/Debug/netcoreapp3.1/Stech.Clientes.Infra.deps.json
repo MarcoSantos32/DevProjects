@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Stech.Clientes.Infra/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.0.37",
+          "Stech.Clientes.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Stech.Clientes.Infra.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.0.38": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.38"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.0.37": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.38"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.37"
+          }
+        }
+      },
+      "Stech.Clientes.Domain/1.0.0": {
+        "runtime": {
+          "Stech.Clientes.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Stech.Clientes.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.0.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tk+WfhQkZB6tXMioWy1faZk7Ld2sSkIJTn9E7KyCKs3WHRLjz7BS/MwMITf8AZt1QbdGv0+m45OMlTN9hkEIIg==",
+      "path": "awssdk.core/3.7.0.38",
+      "hashPath": "awssdk.core.3.7.0.38.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.0.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1vSNnLd/3yCQ4IaQa20pfszIqP0RJfypNeNilHOiFbeqhhClfyk+Uof4f+O4BU4KBg7ze40LdGx/p2ew+xfQaw==",
+      "path": "awssdk.dynamodbv2/3.7.0.37",
+      "hashPath": "awssdk.dynamodbv2.3.7.0.37.nupkg.sha512"
+    },
+    "Stech.Clientes.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

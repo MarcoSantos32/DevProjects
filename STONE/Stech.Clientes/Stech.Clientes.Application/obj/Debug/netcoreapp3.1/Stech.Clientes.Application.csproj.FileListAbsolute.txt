@@ -1,0 +1,14 @@
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\bin\Debug\netcoreapp3.1\Stech.Clientes.Application.deps.json
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\bin\Debug\netcoreapp3.1\Stech.Clientes.Application.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\bin\Debug\netcoreapp3.1\Stech.Clientes.Application.pdb
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\bin\Debug\netcoreapp3.1\Stech.Clientes.Domain.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\bin\Debug\netcoreapp3.1\Stech.Clientes.Infra.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\bin\Debug\netcoreapp3.1\Stech.Clientes.Domain.pdb
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\bin\Debug\netcoreapp3.1\Stech.Clientes.Infra.pdb
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\obj\Debug\netcoreapp3.1\Stech.Clientes.Application.csproj.AssemblyReference.cache
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\obj\Debug\netcoreapp3.1\Stech.Clientes.Application.AssemblyInfoInputs.cache
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\obj\Debug\netcoreapp3.1\Stech.Clientes.Application.AssemblyInfo.cs
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\obj\Debug\netcoreapp3.1\Stech.Clientes.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\obj\Debug\netcoreapp3.1\Stech.Clientes.Application.csproj.CopyComplete
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\obj\Debug\netcoreapp3.1\Stech.Clientes.Application.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.Application\obj\Debug\netcoreapp3.1\Stech.Clientes.Application.pdb

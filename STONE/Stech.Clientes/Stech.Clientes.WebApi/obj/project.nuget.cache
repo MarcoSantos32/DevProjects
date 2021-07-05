@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1InlJcW7nqefBGivdBLIgVpzo7c0SMkRts66us3w3jq5mG1u3Pj5cox2AluOjvVV/k9mgdObYAtfuEcNiRrzZA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\Stech.Clientes.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\awssdk.core\\3.7.0.38\\awssdk.core.3.7.0.38.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.0.37\\awssdk.dynamodbv2.3.7.0.37.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
