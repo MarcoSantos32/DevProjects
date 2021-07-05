@@ -1,0 +1,9 @@
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.csproj.AssemblyReference.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.AssemblyInfoInputs.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.AssemblyInfo.cs
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.deps.json
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.pdb

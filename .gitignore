@@ -1,1 +1,4 @@
 bin/
+/STONE/Stech.Clientes/Stech.Clientes.WebApi/appsettings.json
+*.suo
+/STONE/Stech.Cobrancas/Stech.Cobrancas.WebApi/appsettings.json

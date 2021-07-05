@@ -1,0 +1,9 @@
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.csproj.AssemblyReference.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.AssemblyInfoInputs.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.AssemblyInfo.cs
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.csproj.CoreCompileInputs.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.deps.json
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Dominio\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.pdb
