@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Stech.Cobrancas.Dominio.Base;
+﻿using Stech.Cobrancas.Dominio.Base;
+using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Stech.Cobrancas.Dominio.Models
 {
@@ -9,7 +8,8 @@ namespace Stech.Cobrancas.Dominio.Models
     {
         public Int64 CPF { get; private set; }
 
-        public DateTime Data { get; private set; }
+        //[DisplayFormat(DataFormatString = "yyyy-MM-ddTHH\\:mm\\:ss.fffZ")]
+        public DateTime DataDeVencimento { get; private set; }
 
         public double Valor{ get; private set; }
 
@@ -24,7 +24,7 @@ namespace Stech.Cobrancas.Dominio.Models
             Validar(cpf, data, valor);
 
             this.CPF = cpf;
-            this.Data = data;
+            this.DataDeVencimento = data;
             this.Valor = valor;
         }
 

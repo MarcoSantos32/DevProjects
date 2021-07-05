@@ -4,6 +4,195 @@
     "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.WebApi\\Stech.Cobrancas.WebApi.csproj": {}
   },
   "projects": {
+    "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Aplicacao\\Stech.Cobrancas.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Aplicacao\\Stech.Cobrancas.Aplicacao.csproj",
+        "projectName": "Stech.Cobrancas.Aplicacao",
+        "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Aplicacao\\Stech.Cobrancas.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj"
+              },
+              "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Infra\\Stech.Cobrancas.Infra.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Infra\\Stech.Cobrancas.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.0.37, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj",
+        "projectName": "Stech.Cobrancas.Dominio",
+        "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Infra\\Stech.Cobrancas.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Infra\\Stech.Cobrancas.Infra.csproj",
+        "projectName": "Stech.Cobrancas.Infra",
+        "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Infra\\Stech.Cobrancas.Infra.csproj",
+        "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.0.37, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.WebApi\\Stech.Cobrancas.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +216,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Aplicacao\\Stech.Cobrancas.Aplicacao.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Aplicacao\\Stech.Cobrancas.Aplicacao.csproj"
+              },
+              "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

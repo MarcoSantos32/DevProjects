@@ -4,10 +4,10 @@ using System.Collections.Generic;
 
 namespace Stech.Cobrancas.Dominio.Interfaces
 {
-    internal interface ICobrancaService
+    public interface ICobrancaService
     {
         void Incluir(string cpf, DateTime data, double valor);
 
-        IList<Cobranca> Retornar(string cpf, DateTime? data);
+        IList<Cobranca> Retornar(string cpf, string mesDeReferencia);
     }
 }

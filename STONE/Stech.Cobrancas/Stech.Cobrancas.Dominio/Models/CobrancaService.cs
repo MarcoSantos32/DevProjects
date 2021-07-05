@@ -1,7 +1,6 @@
-﻿using System;
+﻿using Stech.Cobrancas.Dominio.Interfaces;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using Stech.Cobrancas.Dominio.Interfaces;
 
 
 namespace Stech.Cobrancas.Dominio.Models
@@ -20,23 +19,32 @@ namespace Stech.Cobrancas.Dominio.Models
             if (Validate.CPFValidate.IsValid(cpf))
             {
                 var cobranca = new Cobranca(Convert.ToInt64(cpf), data, valor);
-                _cobrancaRepository.Incluir(cobranca);
+                var resultado =_cobrancaRepository.Incluir(cobranca);
+                resultado.Wait();
             }
             else
                 throw new ArgumentException("CPF Inválido");
         }
 
-        public IList<Cobranca> Retornar(string cpf, DateTime? data)
+        public IList<Cobranca> Retornar(string cpf, string mesDeReferencia)
         {
-            if (Validate.CPFValidate.IsValid(cpf))
+
+            if (Validate.CPFValidate.IsValid(cpf) || !string.IsNullOrWhiteSpace(mesDeReferencia))
             {
-                var resultado = _cobrancaRepository.Retornar(Int64.Parse(cpf), data);
+                Int64.TryParse(cpf, out long cpfNumerico);
+
+                DateTime? dataDeReferencia = null;
+
+                if(int.TryParse(mesDeReferencia, out int mes))
+                    dataDeReferencia = new DateTime(DateTime.Now.Year, mes, 1);
+
+                var resultado = _cobrancaRepository.Retornar(cpfNumerico, dataDeReferencia);
                 resultado.Wait();
 
                 return resultado.Result;
             }
             else
-                throw new ArgumentException("CPF Inválido");
+                throw new ArgumentException("Dados para busca Inválidos");
         }
     }
 }

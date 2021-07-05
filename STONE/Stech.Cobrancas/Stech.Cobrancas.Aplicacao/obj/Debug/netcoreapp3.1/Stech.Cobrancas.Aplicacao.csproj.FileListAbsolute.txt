@@ -7,3 +7,8 @@ C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.pdb
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.dll
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Infra.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Infra.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Aplicacao\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.csproj.CopyComplete

@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.37" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stech.Cobrancas.Dominio\Stech.Cobrancas.Dominio.csproj" />
+    <ProjectReference Include="..\Stech.Cobrancas.Infra\Stech.Cobrancas.Infra.csproj" />
+  </ItemGroup>
+
 </Project>

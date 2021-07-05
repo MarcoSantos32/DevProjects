@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Stech.Cobrancas.Aplicacao\Stech.Cobrancas.Aplicacao.csproj" />
+    <ProjectReference Include="..\Stech.Cobrancas.Dominio\Stech.Cobrancas.Dominio.csproj" />
+  </ItemGroup>
+
 
 </Project>

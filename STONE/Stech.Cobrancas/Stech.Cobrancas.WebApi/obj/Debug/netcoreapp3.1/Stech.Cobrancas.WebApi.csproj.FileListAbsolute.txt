@@ -18,3 +18,13 @@ C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\obj\Debug\netcoreapp3.1
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\obj\Debug\netcoreapp3.1\Stech.Cobrancas.WebApi.dll
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\obj\Debug\netcoreapp3.1\Stech.Cobrancas.WebApi.pdb
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\obj\Debug\netcoreapp3.1\Stech.Cobrancas.WebApi.genruntimeconfig.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\obj\Debug\netcoreapp3.1\Stech.Cobrancas.WebApi.csproj.CopyComplete
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Infra.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Infra.pdb

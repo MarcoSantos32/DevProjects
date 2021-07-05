@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "s3vgSBUdMhnHg7eBRal2rsGk//xE/84QzgaWbDmzqC2uiKFQ7dbV6dJ5H6ne0iC8YK0PXCfmMn3a20Mh/ErYmg==",
+  "dgSpecHash": "UhEWZNtL1D2KC55bvDZmdxaxTRJhrsfPQtUH7J+PXNnDrJfV1Ve1Eap95yaE6+wgOEaZhrVqeAcDToC74zy+Pg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.WebApi\\Stech.Cobrancas.WebApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\awssdk.core\\3.7.0.38\\awssdk.core.3.7.0.38.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.0.37\\awssdk.dynamodbv2.3.7.0.37.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
