@@ -1,0 +1,188 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Stech.AppCalculoConsumo.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Stech.AppCalculoConsumo.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stech.AppCalculoConsumo.Dominio.dll": {}
+        }
+      },
+      "Stech.AppCalculoConsumo.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Stech.AppCalculoConsumo.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stech.AppCalculoConsumo.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stech.AppCalculoConsumo.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Stech.AppCalculoConsumo.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Stech.AppCalculoConsumo.Dominio/Stech.AppCalculoConsumo.Dominio.csproj",
+      "msbuildProject": "../Stech.AppCalculoConsumo.Dominio/Stech.AppCalculoConsumo.Dominio.csproj"
+    },
+    "Stech.AppCalculoConsumo.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Stech.AppCalculoConsumo.Infra/Stech.AppCalculoConsumo.Infra.csproj",
+      "msbuildProject": "../Stech.AppCalculoConsumo.Infra/Stech.AppCalculoConsumo.Infra.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0",
+      "Stech.AppCalculoConsumo.Dominio >= 1.0.0",
+      "Stech.AppCalculoConsumo.Infra >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\STONE\\Stech.AppCalculoConsumo\\Stech.AppCalculoConsumo.Application\\Stech.AppCalculoConsumo.Application.csproj",
+      "projectName": "Stech.AppCalculoConsumo.Application",
+      "projectPath": "C:\\Projetos\\STONE\\Stech.AppCalculoConsumo\\Stech.AppCalculoConsumo.Application\\Stech.AppCalculoConsumo.Application.csproj",
+      "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\STONE\\Stech.AppCalculoConsumo\\Stech.AppCalculoConsumo.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Projetos\\STONE\\Stech.AppCalculoConsumo\\Stech.AppCalculoConsumo.Dominio\\Stech.AppCalculoConsumo.Dominio.csproj": {
+              "projectPath": "C:\\Projetos\\STONE\\Stech.AppCalculoConsumo\\Stech.AppCalculoConsumo.Dominio\\Stech.AppCalculoConsumo.Dominio.csproj"
+            },
+            "C:\\Projetos\\STONE\\Stech.AppCalculoConsumo\\Stech.AppCalculoConsumo.Infra\\Stech.AppCalculoConsumo.Infra.csproj": {
+              "projectPath": "C:\\Projetos\\STONE\\Stech.AppCalculoConsumo\\Stech.AppCalculoConsumo.Infra\\Stech.AppCalculoConsumo.Infra.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

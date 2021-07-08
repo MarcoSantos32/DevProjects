@@ -28,3 +28,8 @@ C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Infra.dll
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Aplicacao.pdb
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Infra.pdb
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.WebApi\obj\Debug\netcoreapp3.1\Stech.Cobrancas.WebApi.MvcApplicationPartsAssemblyInfo.cs

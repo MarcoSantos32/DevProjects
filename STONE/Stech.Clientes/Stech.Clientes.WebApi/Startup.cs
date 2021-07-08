@@ -21,6 +21,10 @@ namespace Stech.Clientes.WebApi
         {
             Initializer.Configure(services, Configuration.GetSection("AWSKeys").GetValue<string>("AccessKey"), Configuration.GetSection("AWSKeys").GetValue<string>("SecretKey"));
             services.AddControllers();
+            services.AddSwaggerGen(x =>
+            {
+                x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo() { Title = "Stech.Clientes.WebApi", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +44,14 @@ namespace Stech.Clientes.WebApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(x =>
+            {
+                x.SwaggerEndpoint("/WebApi/swagger/v1/swagger.json", "Stech.Clientes.WebApi V1");
             });
         }
     }

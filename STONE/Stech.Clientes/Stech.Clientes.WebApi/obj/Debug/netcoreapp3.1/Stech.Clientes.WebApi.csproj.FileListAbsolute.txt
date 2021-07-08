@@ -28,3 +28,8 @@ C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\bin\Debug\netcoreapp3.1\S
 C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\obj\Debug\netcoreapp3.1\Stech.Clientes.WebApi.csproj.CopyComplete
 C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
 C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\obj\Debug\netcoreapp3.1\Stech.Clientes.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projetos\STONE\Stech.Clientes\Stech.Clientes.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

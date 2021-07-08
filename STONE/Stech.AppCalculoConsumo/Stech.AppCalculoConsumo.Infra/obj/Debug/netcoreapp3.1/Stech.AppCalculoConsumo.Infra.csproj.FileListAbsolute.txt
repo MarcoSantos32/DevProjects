@@ -1,0 +1,12 @@
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.deps.json
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.dll
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.pdb
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Dominio.dll
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Dominio.pdb
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.csproj.AssemblyReference.cache
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.AssemblyInfoInputs.cache
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.AssemblyInfo.cs
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.csproj.CoreCompileInputs.cache
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.csproj.CopyComplete
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.dll
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Infra\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.pdb

@@ -19,6 +19,7 @@ namespace Stech.Clientes.WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("RetornarTodos")]
         public IActionResult RetornarClientes()
         {
             try
@@ -50,7 +51,8 @@ namespace Stech.Clientes.WebApi.Controllers
         }
 
 
-        [HttpPost]        
+        [HttpPut]
+        [Route("Cadastrar")]
         public IActionResult CadastrarCliente(string cpf, string nome, string estado)
         {
             try

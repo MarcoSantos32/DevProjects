@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "1InlJcW7nqefBGivdBLIgVpzo7c0SMkRts66us3w3jq5mG1u3Pj5cox2AluOjvVV/k9mgdObYAtfuEcNiRrzZA==",
+  "dgSpecHash": "kADHneBO6MUxFC5K4hozcbMgqodohs26QxSP4Oq6oiIi27G/fDsCvk47/2ORcd0V4a2dPrB8cRxXG4uhMx4NZA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\Stech.Clientes.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marco Antonio\\.nuget\\packages\\awssdk.core\\3.7.0.38\\awssdk.core.3.7.0.38.nupkg.sha512",
     "C:\\Users\\Marco Antonio\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.0.37\\awssdk.dynamodbv2.3.7.0.37.nupkg.sha512",
-    "C:\\Users\\Marco Antonio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\Marco Antonio\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
   ],
   "logs": []
 }

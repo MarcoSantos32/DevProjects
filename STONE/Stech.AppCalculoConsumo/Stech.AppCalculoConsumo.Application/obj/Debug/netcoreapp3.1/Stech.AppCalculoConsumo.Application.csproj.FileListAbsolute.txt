@@ -1,0 +1,14 @@
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.deps.json
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.dll
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.pdb
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Dominio.dll
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.dll
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Dominio.pdb
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\bin\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Infra.pdb
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.csproj.AssemblyReference.cache
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.AssemblyInfoInputs.cache
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.AssemblyInfo.cs
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.csproj.CopyComplete
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.dll
+C:\Projetos\STONE\Stech.AppCalculoConsumo\Stech.AppCalculoConsumo.Application\obj\Debug\netcoreapp3.1\Stech.AppCalculoConsumo.Application.pdb

@@ -38,7 +38,8 @@ namespace Stech.Cobrancas.WebApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPut]  
+        [Route("Cadastrar")]        
         public IActionResult Cadastrarcobranca(string cpf, DateTime dataDeVencimento, double valor)
         {
             try
