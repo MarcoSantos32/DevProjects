@@ -1,4 +1,5 @@
-﻿using Stech.Clientes.Domain.Interfaces;
+﻿using Stech.Clientes.Domain.Convert;
+using Stech.Clientes.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 
@@ -18,9 +19,9 @@ namespace Stech.Clientes.Domain.Models
             if (Validate.CPFValidate.IsValid(cpf))
             {
                 if(Consultar(cpf) != null)
-                    throw new ArgumentException("CPF já existente");
+                    throw new Exception("CPF já existente");
 
-                var cliente = new Cliente(Convert.ToInt64(cpf), nome, estado);
+                var cliente = new Cliente(CPFConverter.ConvertToLong(cpf), nome, estado);
                 _clienteRepository.Incluir(cliente);
             }
             else
@@ -52,7 +53,7 @@ namespace Stech.Clientes.Domain.Models
 
         private Cliente Consultar(string cpf)
         {
-            var clienteCadastrado = _clienteRepository.Retornar(Convert.ToInt64(cpf));
+            var clienteCadastrado = _clienteRepository.Retornar(CPFConverter.ConvertToLong(cpf));
             clienteCadastrado.Wait();
 
             return clienteCadastrado.Result;

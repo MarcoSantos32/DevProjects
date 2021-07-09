@@ -4,6 +4,191 @@
     "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Tests\\Stech.Clientes.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Application\\Stech.Clientes.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Application\\Stech.Clientes.Application.csproj",
+        "projectName": "Stech.Clientes.Application",
+        "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Application\\Stech.Clientes.Application.csproj",
+        "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj"
+              },
+              "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Infra\\Stech.Clientes.Infra.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Infra\\Stech.Clientes.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj",
+        "projectName": "Stech.Clientes.Domain",
+        "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj",
+        "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Infra\\Stech.Clientes.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Infra\\Stech.Clientes.Infra.csproj",
+        "projectName": "Stech.Clientes.Infra",
+        "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Infra\\Stech.Clientes.Infra.csproj",
+        "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.0.37, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Tests\\Stech.Clientes.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +212,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\Stech.Clientes.WebApi.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\Stech.Clientes.WebApi.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -72,6 +261,76 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\Stech.Clientes.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\Stech.Clientes.WebApi.csproj",
+        "projectName": "Stech.Clientes.WebApi",
+        "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\Stech.Clientes.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Marco Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Application\\Stech.Clientes.Application.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Application\\Stech.Clientes.Application.csproj"
+              },
+              "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\STONE\\Stech.Clientes\\Stech.Clientes.Domain\\Stech.Clientes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

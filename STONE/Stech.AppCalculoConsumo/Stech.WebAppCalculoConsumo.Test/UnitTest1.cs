@@ -1,15 +1,14 @@
 using System;
 using Xunit;
 
-namespace Stech.Clientes.Tests
+namespace Stech.WebAppCalculoConsumo.Test
 {
     public class UnitTest1
     {
         [Fact]
         public void Test1()
         {
-            //ALteração do teste 1
-            //Branch Develop 2
+
         }
     }
 }

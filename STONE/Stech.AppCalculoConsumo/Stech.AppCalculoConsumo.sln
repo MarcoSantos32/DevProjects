@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Aplicacao", "3 - Aplica
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{68C0DDB8-1F6D-495F-8F31-42F3B3997855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stech.WebAppCalculoConsumo.Test", "Stech.WebAppCalculoConsumo.Test\Stech.WebAppCalculoConsumo.Test.csproj", "{3EC59345-14D8-447C-B24D-40522637B7CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0E55074A-5C2F-448F-9E72-385A21699989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E55074A-5C2F-448F-9E72-385A21699989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E55074A-5C2F-448F-9E72-385A21699989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC59345-14D8-447C-B24D-40522637B7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC59345-14D8-447C-B24D-40522637B7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC59345-14D8-447C-B24D-40522637B7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC59345-14D8-447C-B24D-40522637B7CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{C8F40C18-94C0-4517-AC9D-4820885F9B7D} = {ABFF6961-D61F-4930-8BEF-47865C0F3712}
 		{DCF30DB1-EAA5-4AE4-8F85-886F3F6799D5} = {ABFF6961-D61F-4930-8BEF-47865C0F3712}
 		{68C0DDB8-1F6D-495F-8F31-42F3B3997855} = {ABFF6961-D61F-4930-8BEF-47865C0F3712}
+		{3EC59345-14D8-447C-B24D-40522637B7CA} = {E7CF25FD-B512-415D-8518-53FF4E5CBBD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79775854-9D66-4EC4-BBFD-825DD619F4AC}

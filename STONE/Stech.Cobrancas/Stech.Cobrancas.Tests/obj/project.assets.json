@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Stech.Cobrancas.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Stech.Cobrancas.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stech.Cobrancas.Dominio.dll": {}
+        }
       }
     }
   },
@@ -5906,11 +5916,17 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Stech.Cobrancas.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Stech.Cobrancas.Dominio/Stech.Cobrancas.Dominio.csproj",
+      "msbuildProject": "../Stech.Cobrancas.Dominio/Stech.Cobrancas.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "Stech.Cobrancas.Dominio >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -5942,7 +5958,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj": {
+              "projectPath": "C:\\Projetos\\STONE\\Stech.Cobrancas\\Stech.Cobrancas.Dominio\\Stech.Cobrancas.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

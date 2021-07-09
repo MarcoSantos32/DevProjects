@@ -95,3 +95,6 @@ C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Tests\obj\Debug\netcoreapp3.1\
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Tests\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Tests.dll
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Tests\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Tests.pdb
 C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Tests\obj\Debug\netcoreapp3.1\Stech.Cobrancas.Tests.genruntimeconfig.cache
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Tests\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Tests\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.dll
+C:\Projetos\STONE\Stech.Cobrancas\Stech.Cobrancas.Tests\bin\Debug\netcoreapp3.1\Stech.Cobrancas.Dominio.pdb

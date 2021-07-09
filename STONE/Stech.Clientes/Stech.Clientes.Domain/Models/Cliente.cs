@@ -39,19 +39,19 @@ namespace Stech.Clientes.Domain.Models
         private void ValidarCPF (Int64 cpf)
         {
             if (cpf <= 0)
-                throw new InvalidOperationException("O cpf é inválido");
+                throw new ArgumentException("O cpf é inválido");
         }
 
         private void ValidarNome(string nome)
         {
             if (string.IsNullOrEmpty(nome))
-                throw new InvalidOperationException("O nome é inválido");
+                throw new ArgumentException("O nome é inválido");
         }
 
         private void ValidarEstado(string estado)
         {
             if (string.IsNullOrEmpty(estado))
-                throw new InvalidOperationException("O estado é inválido");
+                throw new ArgumentException("O estado é inválido");
         }
     }
 }

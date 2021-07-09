@@ -43,16 +43,14 @@ namespace Stech.Cobrancas.Dominio.Models
 
         private void ValidarData(DateTime data)
         {
-            if (data == DateTime.MinValue)
-                throw new InvalidOperationException("A data é inválida");
+            if (data == DateTime.MinValue || data == DateTime.MaxValue)
+                throw new ArgumentException("A data é inválida");
         }
 
         private void ValidarValor(double valor)
         {
-            if (double.IsNegative(valor) || double.Equals(valor,0))
-                throw new InvalidOperationException("O estado é inválido");
+            if (double.IsNegative(valor) || valor == 0)
+                throw new ArgumentException("O valor é inválido");
         }
-
-
     }
 }

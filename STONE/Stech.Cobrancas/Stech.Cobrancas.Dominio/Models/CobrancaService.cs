@@ -1,4 +1,6 @@
-﻿using Stech.Cobrancas.Dominio.Interfaces;
+﻿using Stech.Cobrancas.Dominio.Convert;
+using Stech.Cobrancas.Dominio.Interfaces;
+using Stech.Cobrancas.Dominio.Validate;
 using System;
 using System.Collections.Generic;
 
@@ -16,9 +18,9 @@ namespace Stech.Cobrancas.Dominio.Models
 
         public void Incluir(string cpf, DateTime data, double valor)
         {
-            if (Validate.CPFValidate.IsValid(cpf))
+            if (CPFValidate.IsValid(cpf))
             {
-                var cobranca = new Cobranca(Convert.ToInt64(cpf), data, valor);
+                var cobranca = new Cobranca(CPFConverter.ConvertToLong(cpf), data, valor);
                 var resultado =_cobrancaRepository.Incluir(cobranca);
                 resultado.Wait();
             }
@@ -28,17 +30,11 @@ namespace Stech.Cobrancas.Dominio.Models
 
         public IList<Cobranca> Retornar(string cpf, string mesDeReferencia)
         {
+            DateTime? dataDeReferencia = DataConverter.MonthToDateTime(mesDeReferencia);
 
-            if (Validate.CPFValidate.IsValid(cpf) || !string.IsNullOrWhiteSpace(mesDeReferencia))
+            if (CPFValidate.IsValid(cpf) || dataDeReferencia.HasValue)
             {
-                Int64.TryParse(cpf, out long cpfNumerico);
-
-                DateTime? dataDeReferencia = null;
-
-                if(int.TryParse(mesDeReferencia, out int mes))
-                    dataDeReferencia = new DateTime(DateTime.Now.Year, mes, 1);
-
-                var resultado = _cobrancaRepository.Retornar(cpfNumerico, dataDeReferencia);
+                var resultado = _cobrancaRepository.Retornar(CPFConverter.ConvertToLong(cpf), dataDeReferencia);
                 resultado.Wait();
 
                 return resultado.Result;
