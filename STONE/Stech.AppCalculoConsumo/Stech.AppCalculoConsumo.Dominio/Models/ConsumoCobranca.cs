@@ -1,7 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-
-namespace Stech.AppCalculoConsumo.Dominio.Models
+﻿namespace Stech.AppCalculoConsumo.Dominio.Models
 {
     public class ConsumoCobranca
     {

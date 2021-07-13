@@ -1,11 +1,4 @@
-bin/
-/STONE/Stech.Clientes/Stech.Clientes.WebApi/appsettings.json
 *.suo
-/STONE/Stech.Cobrancas/Stech.Cobrancas.WebApi/appsettings.json
-/STONE/Stech.Cobrancas/Stech.Cobrancas.Aplicacao/obj/Release/netcoreapp3.1
-/STONE/Stech.Cobrancas/Stech.Cobrancas.Dominio/obj/Release/netcoreapp3.1
-/STONE/Stech.Cobrancas/Stech.Cobrancas.Infra/obj/Release/netcoreapp3.1
-/STONE/Stech.Cobrancas/Stech.Cobrancas.Tests/obj/Release/netcoreapp3.1
 *.cache
 *.dll
 *.exe
@@ -13,3 +6,11 @@ bin/
 *.pubxml
 *.pubxml.user
 *.csproj.user
+*.v2
+bin/
+/STONE/Stech.Clientes/Stech.Clientes.WebApi/appsettings.json
+/STONE/Stech.Cobrancas/Stech.Cobrancas.WebApi/appsettings.json
+/STONE/Stech.Cobrancas/Stech.Cobrancas.Aplicacao/obj/Release/netcoreapp3.1
+/STONE/Stech.Cobrancas/Stech.Cobrancas.Dominio/obj/Release/netcoreapp3.1
+/STONE/Stech.Cobrancas/Stech.Cobrancas.Infra/obj/Release/netcoreapp3.1
+/STONE/Stech.Cobrancas/Stech.Cobrancas.Tests/obj/Release/netcoreapp3.1
